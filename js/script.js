@@ -80,3 +80,40 @@
 
 // let age = 18;
 // alert('Мой возраст, '+ age +'!')
+
+//7
+// let name = prompt('Введите ваше имя')
+// alert('Ваше имя adfasd'+ name)
+
+// let num = prompt("Введите число")
+// alert(Math.pow(num, 2)) 
+
+//8
+// let str  = 'abcde'
+// alert(str[0])
+// alert(str[2])
+// alert(str[4])
+
+// let num = "12345";
+// let mult=1;
+
+// for (let i = 0; i < num.length; i++) {
+//     mult*=Number(num[i])
+// }
+// alert(mult)
+
+//9
+// let sec=60
+// alert("В часе: " + Math.pow(sec,2)+" секунд")
+// alert("В сутках: " + Math.pow(sec,2)*24 +" секунд")
+// alert("В сутках: " + (Math.pow(sec,2)*24)*30 +" секунд")
+
+// var now = new Date();
+// let hour = now.getHours()
+// let min = now.getMinutes()
+// let sec = now.getSeconds()
+
+// alert(hour + ':'+ min + ':'+sec)
+
+// let num=4141223
+// alert(Math.pow(num, 2))
