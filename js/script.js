@@ -117,3 +117,145 @@
 
 // let num=4141223
 // alert(Math.pow(num, 2))
+
+// 10
+// let array = ['Привет', ' мир', ' !']
+// alert(array[0] + array[1] + array[2])
+
+//11
+// let array = ['Привет', ' мир', ' !']
+// array[0] = 'пока'
+// alert(array[0] + array[1] + array[2])
+
+//12
+// let obj = { 'Коля': '1000', 'Вася': '500', 'Петя': '200' }
+// alert('Зп Пети: ' + obj.Петя)
+// alert('Зп Коли: ' + obj.Коля)
+
+//13
+
+// let arr = [1,2,3,4,5]
+
+// let arr = []
+// arr[0] = 1
+// arr[1] = 2
+// arr[2] = 3
+// arr[3] = 4
+// arr[4] = 5
+
+//14
+
+// var arr = {
+//     'ru': ['голубой', 'красный', 'зеленый'],
+//     'en': ['blue', 'red', 'green'],
+// }
+
+// alert(arr.ru[0])
+
+//15
+
+// let arr = ['a', 'b', 'c']
+//     // alert(arr)
+
+// for (let i = 0; i < arr.length; i++) {
+//     alert(arr[i])
+// }
+
+// let arr = ['a', 'b', 'c', 'd']
+// alert(arr[0] + "+" + arr[1] + "," + arr[2] + "+" + arr[3])
+
+// let arr = [2, 5, 3, 9]
+// let result = (arr[0] * arr[1]) + (arr[2] * arr[3])
+// alert(result)
+
+//15
+// 
+// let obj = { a: 1, b: 2, c: 3 }
+// alert(obj.c)
+// alert(obj['c'])
+
+// let obj = { 'Коля': '1000', 'Вася': '500', 'Петя': '200' }
+// alert('Зп Пети: ' + obj.Петя)
+// alert('Зп Коли: ' + obj.Коля)
+
+// let week = { 1: 'Пн', 2: 'Вт', 3: 'Ср', 4: 'Чт', 5: 'Пт', 6: 'Сб', 0: 'Вс' }
+// var now = new Date()
+// now_week = now.getDay()
+// alert(week[now_week]);
+
+// let week = { 1: 'Пн', 2: 'Вт', 3: 'Ср', 4: 'Чт', 5: 'Пт', 6: 'Сб', 0: 'Вс' }
+// let day = 2
+// alert(week[day]);
+
+//16
+
+// let arr = [
+//     [1, 2, 3],
+//     [4, 5, 6],
+//     [7, 8, 9]
+// ]
+
+// alert(arr[1][0])
+
+// let language = { js: ['jQuery', 'Angular'], php: 'hello', css: 'world' }
+// alert(language.js[0])
+
+// var week = { ru: ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'], en: ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'] }
+// alert(week.ru[0] + ' ' + week.en[2])
+
+// var lang = { ru: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'], en: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'] }
+// var now = new Date()
+// day = now.getDay()
+// alert(lang.ru[day])
+
+//17
+// let a = prompt('Введите число')
+// alert(a == 10 ? 'Верно' : 'Не верно')
+
+//18
+// let min = 10
+// alert(min <= 14 ? "Первая четверть часа" : min > 14 && min < 29 ? "Вторая четветь часа" : min > 29 && min < 44 ? 'Третья Четверть часа' : 'Четвертая четверть часа')
+
+//19
+// let lang = 'ru'
+// let arr = []
+
+//if
+// if (lang == 'ru') {
+//     arr = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс']
+// }
+
+// if (lang == 'en') {
+//     arr = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa']
+// }
+
+//switch
+
+// switch (lang) {
+//     case 'ru':
+//         arr = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс']
+//         break;
+
+//     case 'en':
+//         arr = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa']
+//         break;
+// }
+
+//через массив
+// var arr = { ru: ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'], en: ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'] }
+
+// alert(arr[lang])
+
+//20
+// let a = prompt('Введите число')
+// alert(a == 0 ? 'Верно' : 'Не верно')
+
+// let a = prompt('Введите слово')
+// alert(a == 'test' ? 'Верно' : 'Не верно')
+
+// let a = prompt('Введите 1')
+// alert(a == 1 ? 'Верно' : 'Не верно')
+
+//21
+let month = 12
+alert(month > 0 && month || month == 12 < 3 ? 'Зима' : month > 0 && month < 3 ? 'Зима' : month > 0 && month < 3 ? 'Зима' : 'зима')
